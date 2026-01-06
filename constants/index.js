@@ -101,7 +101,7 @@ const goodLists = [
     "Freshly muddled flavors",
 ];
 
-const storeInfo = {
+const barInfo = {
     heading: "Where to Find Us",
     address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
     contact: {
@@ -178,7 +178,7 @@ export {
     featureLists,
     goodLists,
     openingHours,
-    storeInfo,
+    barInfo,
     socials,
     menuLists,
 };
