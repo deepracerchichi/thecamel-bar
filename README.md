@@ -1,16 +1,54 @@
-# React + Vite
+# The Camel Bar- GSAP Animation Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+The camel was designed as a final project for my GSAP Animation Course. The project showcases various animations particularly centered around a bar including the drink splash animation to give a lively feel to the screen. This project was designed as both a creative experiment and a technical demonstration of advanced frontend animation techniques.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Objectives 
 
-## React Compiler
+- Demonstrate proficiency in GSAP animation techniques.
+- Create smooth performance optimized animations.
+- Apply motion meaningfully to enhance user experience.
+- Simulate a branded bar website with character and flow.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features 
 
-## Expanding the ESLint configuration
+- Smooth entrance and exit animations
+- Scroll-triggered animations
+- Timeline-based animation sequencing
+- Staggered text and element reveals
+- Transform, opacity, scale, and motion effects
+- Responsive animations across screen sizes
+- Performance-conscious animation handling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## GSAP TECHNIQUES USED
+
+This project intentionally incorporates a wide range f GSAP animation styles including:
+
+- gsap.to()
+- gsap.from()
+- gsap.fromTo()
+- ScrollTrigger plugin
+- Timelines for sequencing
+- Staggered animations
+- Easing functions for natural motion
+- Transform and motion effects
+- Opacity and scale animations
+
+## How To Run Locally
+1. **Clone the repository**
+   `git clone https://github.com/deepracerchichi/thecamel-bar`
+2. **Open the project folder** `cd thecamel-bar`
+3. **Install dependencies** `npm install`
+4. **Run it** `npm run dev` or `npm start`
+   **Optional**
+5. **To ensure drink splash animation plays smoothly:** Download and Install FFMPEG then run this in the terminal while in the video directory: `ffmpeg -i input.mp4 -vf scale=960:-1 -movflags faststart -vcodec libx264 -crf 20 -g 1 -pix_fmt yuv420p output.mp4`
+
+
+## Author
+
+#### Chinyere Ukpong
+Frontend Developer 
+GSAP | Motion Design | Interactive UI
+
+
