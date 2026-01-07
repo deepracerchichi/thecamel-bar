@@ -27,10 +27,10 @@ const NavBar = () => {
     )
     return (
         <nav>
-            <div>
+            <div className=' mx-auto px-5'>
                 <a href='#home' className='flex items-center gap-2'>
-                    <img src="/images/logo.png" alt="logo" />
-                    <p>Velvet Pour</p>
+                    <img src="/images/newlogo.png" alt="logo" className='resize w-10 h-10'/>
+                    <p>The Camel</p>
                 </a>
                 <ul>
                     {navLinks.map((link)=>(
